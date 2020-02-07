@@ -15,5 +15,5 @@ api = tp.API(auth)
 
 
 # update status
-for api.update_status("i love you, ❤️!")
+api.update_status("i love you, ❤️!")
     time.sleep(3)
